@@ -54,11 +54,19 @@ body {
 
 #meet-section .fas,
 #share-section .fas {
-  \color: #333;
+  color: #333;
   padding: 5px;
   border-radius: 5px;
 }
 
 .light-blue {
   background-color: #3292a6;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-header {
+  text-align: center;
 }
