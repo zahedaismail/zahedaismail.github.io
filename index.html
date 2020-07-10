@@ -75,25 +75,29 @@
         </div>
       </div>
     </nav>
-    
-    <!-- COVID MODAL -->
-     <div class="modal fade text-dark" id="covidModal">
+
+ <div class="modal fade text-dark" id="covidModal">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Listen here</h5>
+            <h5 class="modal-title" style="color: red; font-weight: bold;">COVID-19 Notice</h5>
             <button class="close" data-dismiss="modal">
               <span>&times;</span>
             </button>
           </div>
           <div class="modal-body">
             <p>
-              If you have covid don't come see me
+              Dear clients,<br> For your health and safety all consultations 
+              will now take place via voice or video call on a platform of 
+              your choice.
+              <br><br>
+              Stay safe!
             </p>
           </div>
         </div>
       </div>
     </div>
+
 
     <!-- HOME SECTION -->
     <header id="home-section">
@@ -487,7 +491,7 @@
           <div class="modal-body">
             <p>
               Please feel free to contact me if you have any questions
-              zaheda@limitlesscoaching.co.za
+              <a href = "mailto:zaheda@limitlesscoaching.co.za?subject = Coaching Query">zaheda@limitlesscoaching.co.za</a>
             </p>
             <!-- <form>
               <div class="form-group">
@@ -556,6 +560,6 @@
       $(document).ready(function(){
           $("#covidModal").modal('show');
       });
-    </script>
+  </script>
   </body>
 </html>
